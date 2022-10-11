@@ -6,7 +6,7 @@ import 'package:obras_app/Clients/models/client.dart';
 
 class Clients with ChangeNotifier {
   final List<Client> items = [];
-  final _baseurl = 'https://appnobre-edd8e-default-rtdb.firebaseio.com/clients';
+  final _baseurl = '';
 
   List<Client> get all {
     return [...items];
