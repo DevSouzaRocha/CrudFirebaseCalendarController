@@ -7,7 +7,7 @@ import 'package:obras_app/Production/models/user.dart';
 class Users with ChangeNotifier {
   final List<User> items = [];
 
-  final _baseurl = 'https://appnobre-edd8e-default-rtdb.firebaseio.com/obras';
+  final _baseurl = '';
 
   List<User> get all {
     return [...items];
